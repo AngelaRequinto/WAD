@@ -1,7 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ ArrQueue.java
+ Angela Mikaela R. Requinto
+ Bsis-2
+ Github.com/AngelaRequinto
+ August 23,2016
+ 
  */
 package arrqueue;
 
@@ -101,9 +104,36 @@ public class ArrQueue {
     
     
     public static void main(String[] args) {
-
-
-        
+      
+       ArrQueue ArrQueue= new ArrQueue (10);
+       System.out.println("Storage Capacity:"+ArrQueue.capacity);
+       System.out.print();
+       
+       ArrQueue.show();
+       ArrQueue.isEmpty();
+       ArrQueue.enqueue("one");
+       ArrQueue.show();
+       ArrQueue.show();
+       ArrQueue.dequeue();
+       ArrQueue.enqueue("two");
+       ArrQueue.dequeue();
+       ArrQueue.enqueue("three");
+       ArrQueue.show();
+       ArrQueue.enqueue("four");
+       ArrQueue.peekfront();
+       ArrQueue.peekrear();
+       ArrQueue.enqueue("five");
+       ArrQueue.dequeue();
+       ArrQueue.enqueue("six");
+       ArrQueue.enqueue("seven");
+       ArrQueue.show();
+       ArrQueue.dequeue();
+       ArrQueue.enqueue("eight");
+       ArrQueue.enqueue("nine");
+       ArrQueue.enqueue("ten");
+       ArrQueue.isFull();
+       ArrQueue.peekfront();
+       ArrQueue.peekrear();
     }
     
 }
