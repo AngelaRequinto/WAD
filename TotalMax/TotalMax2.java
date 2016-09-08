@@ -1,3 +1,11 @@
+/*
+ TotalMax2.java
+ Angela Mikaela R. Requinto
+ Bsis-2
+ Github.com/AngelaRequinto
+ September 7,2016
+ */
+
 import java.util.Scanner;
 import java.util.Random;
 public class TotalMax2 {
