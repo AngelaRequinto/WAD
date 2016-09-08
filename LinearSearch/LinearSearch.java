@@ -1,3 +1,12 @@
+/*
+ LinearSearch.java
+ Angela Mikaela R. Requinto
+ Bsis-2
+ Github.com/AngelaRequinto
+ September 8,2016
+ */
+
+
 import java.util.Scanner;
 import java.util.Random;
 
