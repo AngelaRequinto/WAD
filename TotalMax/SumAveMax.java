@@ -1,5 +1,5 @@
 /*
- TotalMax2.java
+ SumAveMax.java
  Angela Mikaela R. Requinto
  Bsis-2
  Github.com/AngelaRequinto
@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 import java.util.Random;
-public class TotalMax2 {
+public class SumAveMax {
 
 	private int []array;
 	private int sum=0;
@@ -16,7 +16,7 @@ public class TotalMax2 {
 	private int capacity;
 
 	
-	private TotalMax2(int num){
+	private SumAveMax(int num){
 		capacity=num;
 		array=new int[capacity];
 	}
@@ -71,11 +71,11 @@ public class TotalMax2 {
 		int amount=0;
 		System.out.println("please input the capacity:");
 		amount=input.nextInt();
-		TotalMax2 TotalMax2 =new TotalMax2(amount);
-		TotalMax2.Input();
-		TotalMax2.Sum();
-		TotalMax2.Average();
-		TotalMax2.Max();
+		SumAveMax SumAveMax =new SumAveMax(amount);
+		SumAveMax.Input();
+		SumAveMax.Sum();
+		SumAveMax.Average();
+		SumAveMax.Max();
 	}
 	
 }
