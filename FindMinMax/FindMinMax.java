@@ -1,4 +1,10 @@
-
+/*
+ LinearSearch.java
+ Angela Mikaela R. Requinto
+ Bsis-2
+ Github.com/AngelaRequinto
+ September 8,2016
+ */
 
 
 
