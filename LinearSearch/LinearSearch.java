@@ -17,7 +17,7 @@ import java.util.Random;
 
         private LinearSearch (int num ){
 
-              Size=num;
+              size=num;
               array=new int [size];
 
 
@@ -26,7 +26,7 @@ import java.util.Random;
         public void Input(){
 
              Scanner input=new Scanner(System.in);
-             for(i=0;i<size;i++){
+             for(int i=0;i<size;i++){
                  Random rand = new Random();
                  array[i]= rand.nextInt(1000);
                     System.out.println("Enter number to find: ");
@@ -37,12 +37,12 @@ import java.util.Random;
 
 }
         public void SearchNumber(){
-              for (i=0;i<size;i++){
+              for (int i=0;i<size;i++){
                   if (array[i]==search)
                       System.out.println("FOUND: "+search+" is at "+" array["+i+"]");
                           break;
          }
-            if (i==size)
+            if (int i==size)
                 System.out.println("NOT FOUND: "+search+" is not in the array.");
 
 }
