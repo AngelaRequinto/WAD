@@ -1,3 +1,13 @@
+/*
+ BubbleSort.java
+ Angela Mikaela R. Requinto
+ Bsis-2
+ Github.com/AngelaRequinto
+ September 21'16
+ */
+
+
+
 import java.util.Scanner;
 import java.util.Random;
 public class BubbleSort {
